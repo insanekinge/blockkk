@@ -1,0 +1,39 @@
+html {
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+    font: 1.6rem/2rem sans-serif;
+    display: flex;
+    min-height: 100vh;
+}
+
+div {
+    margin: auto;
+    position: relative;
+    padding: 80px;
+    background-color: burlywood;
+}
+
+div:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    right: -115px;
+    left: -115px;
+    border-bottom: 7px solid #cbcbcb;
+    border-top: 7px solid #cbcbcb;
+}
+
+div:after {
+    content: '';
+    position: absolute;
+    top: -115px;
+    bottom: -115px;
+    right: -5px;
+    left: -5px;
+    border-left: 7px solid #cbcbcb;
+    border-right: 7px solid #cbcbcb;
+}
